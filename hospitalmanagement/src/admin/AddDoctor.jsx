@@ -1,6 +1,6 @@
 import { useState } from "react";
 import axios from "axios";
-import "./admincss/adddoctor.css";
+import "./admincss/AddDoctor.css";
 const API_URL = `${import.meta.env.VITE_API_URL}/admin`;
 
 export default function AddDoctor() {
